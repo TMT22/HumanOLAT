@@ -267,7 +267,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 1. **Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?** *(If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.)*
 
-    Yes, we internally reviewed the .
+    INFORMATION WILL BE ADDED SHORTLY
 
 
 1. **Any other comments?**
