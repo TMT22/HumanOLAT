@@ -19,7 +19,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 1. **Who created this dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?**
 
-    The dataset was curated by the Visual Computing and Artificial Intelligence Department (D6) at the Max Planck Institute for informatics, Saarland Informatics Campus. 
+    The dataset was curated by the Visual Computing and Artificial Intelligence Department (D6) at the Max Planck Institute for Informatics, Saarland Informatics Campus. 
 
 1. **Who funded the creation of the dataset?** *(If there is an associated grant, please provide the name of the grantor and the grant name and number.)*
 
@@ -103,7 +103,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
     └── shared
         ├── cameras.calib
         ├── LSX_light_positions_aligned.pc
-        └── LSX3_light_z_spiral.mov
+        └── LSX3_light_z_spiral.txt
     ```
 
     There are a total of 21 subjects (`SUBJECT_{subject_id}`). Each of them has subfolders corresponding to the recorded poses (`POSE_{pose_number}`) as well as attributes shared between poses (`shared`). The subfolder `POSE_00` contains the A-pose, every other pose subfolder contains a creative pose. Each pose subfolder has subfolders containing captured and processed images (`images_processed`), the metashape mesh (`model`), sapiens segmentations (`segmentations`), openpose annotations (`openpose`) and smpl-x shape parameters (`smpl-x`). The `shared` subfolder contains the camera calibration (`cameras.calib`) and light metadata (`LSX_light_positions_aligned.pc` and `LSX3_light_z_spiral.txt`).
