@@ -1,5 +1,6 @@
 # HumanOLAT (ICCV 2025)
-Official repository for code, tools and information related to the HumanOLAT dataset, to be published at ICCV 2025. 
+Official repository for code, tools and information related to the HumanOLAT dataset, to be published at ICCV 2025.
+
 [[Project Page]](https://vcai.mpi-inf.mpg.de/projects/HumanOLAT/) [[Paper (Coming Soon)]](https://en.wikipedia.org/wiki/Coming_Soon) [[Data]](https://gvv-assets.mpi-inf.mpg.de/)
 
 ![img](assets/teaser.png)
