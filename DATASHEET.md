@@ -2,8 +2,6 @@ Datasheet in the format of "Datasheets for datasets" as described in
 
 > Gebru, Timnit, et al. "Datasheets for datasets." Communications of the ACM 64.12 (2021): 86-92.
 
-Template obtained from https://github.com/facebookresearch/goliath/blob/main/DATASHEET.md
-
 # HumanOLAT Dataset
 
 <!-- TODO add brief summary here, bibtex -->
@@ -13,7 +11,9 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 1. **For what purpose was the dataset created?** *(Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.)*
 
-    This dataset was created to ...
+    This dataset was created to address the lack of public high-quality data for simultaneous relighting and novel-view rendering of digital human representations.
+
+   Specifically, we aim to provide captures of the full reflectance field for statically posed humans.
 
 
 
@@ -58,7 +58,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
     7. pose annotations for each pose estimated with OpenPose (calculated using the first white light frame)
     7. SMPL-X shape parameters for each pose estimated with EasyMocap (calculated using the OpenPose annotations)
 
-    A comprehensive list of which captures belong to which subject can be found in TO_ADD.
+    A comprehensive list of which captures belong to which subject can be found in CAPTURE_INFO.md.
 
 
 2. **How many instances are there in total (of each type, if appropriate)?**
@@ -128,8 +128,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
     This contains the `.avif` images without any undistortion, masking and motion correction applied. They were obtained by extracting the raw `.RED` files to `.exr` (using an sRGB color space without gamma correction), which were subsequentally converted to `.avif` using ImageMagick's `convert` command with quality setting 99. 
 
 
-    Further information regarding the raw RED will follow in the near future.
-    
+    Further information regarding the raw .RED files will follow in the near future.
    
 
 
@@ -151,7 +150,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 8. **Are there recommended data splits (e.g., training, development/validation, testing)?** *(If so, please provide a description of these splits, explaining the rationale behind them.)*
 
-    We recommend withholding some cameras and OLAT illuminations for testing. We will provide a script to generate easily readable train and test `.json` in NeRF format.
+    We recommend withholding some cameras and OLAT illuminations for testing. We will provide a script to generate easily readable train and test `.json` files in NeRF format.
 
 
 9. **Are there any errors, sources of noise, or redundancies in the dataset?** *(If so, please provide a description.)*
@@ -218,7 +217,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 20. **If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?**
 
-    In this dataset we aim to sample densely the reflectance field of full-body humans. We achieve this by collecting 331 OLAT illuminations per capture, one for each LED in our subject.
+    In this dataset we aim to sample densely the reflectance field of full-body humans. We achieve this by collecting 331 OLAT illuminations per capture, one for each LED in our light stage.
 
 
 21. **Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?**
@@ -262,12 +261,12 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 1. **If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?** *(If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate).)*
 
-    INFORMATION WILL BE ADDED SHORTLY
+    Yes.
 
 
 1. **Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?** *(If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.)*
 
-    INFORMATION WILL BE ADDED SHORTLY
+    Yes, view the supplementary of the main paper for details.
 
 
 1. **Any other comments?**
@@ -324,7 +323,11 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 37. **What (other) tasks could the dataset be used for?**
 
-    INFORMATION TO ADD
+    Various, some other applications include:
+    - Digital clothing models
+    - MVS reconstructions of humans
+    - Inverse rendering from a single image
+    - ...
 
 
 
@@ -355,8 +358,10 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 1. **How will the dataset be distributed (e.g., tarball  on website, API, GitHub)?** *(Does the dataset have a digital object identifier (DOI)?)*
 
-    Please visit  https://gvv-assets.mpi-inf.mpg.de/HumanOLAT/ to apply for and download the data. The data will be provided in the form of tarballs.
-    MORE DETAILED INFORMATION TO ADD
+    Please visit  https://gvv-assets.mpi-inf.mpg.de/HumanOLAT/ to apply for and download the data. The data is provided in the form of tarballs specifically:
+   - `processed_data.tar` => Full dataset with undistorted, masked and motion correction 1K `.avif` files for direct use
+   - `extracted_avif_data.tar` => The 1K `.avif` files without any undistortion, masking or motion correction applied
+   - (COMING SOON) `raw_capture_{capture_id}.tar` => Raw .RED files
 
 
 1. **When will the dataset be distributed?**
@@ -390,7 +395,7 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 1. **Who is supporting/hosting/maintaining the dataset?**
 
-    INFORMATION TO ADD
+    The Visual Computing and Artificial Intelligence Department (D6) at the Max Planck Institute for Informatics, Saarland Informatics Campus.
 
 
 1. **How can the owner/curator/manager of the dataset be contacted (e.g., email address)?**
@@ -415,12 +420,12 @@ Template obtained from https://github.com/facebookresearch/goliath/blob/main/DAT
 
 1. **Will older versions of the dataset continue to be supported/hosted/maintained?** *(If so, please describe how. If not, please describe how its obsolescence will be communicated to users.)*
 
-    INFORMATION TO ADD
+    Additional data (new modalities, subjects, etc.) would be added separatly.
 
 
 1. **If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?** *(If so, please provide a description. Will these contributions be validated/verified? If so, please describe how. If not, why not? Is there a process for communicating/distributing these contributions to other users? If so, please provide a description.)*
 
-    INFORMATION TO ADD
+    None as of now.
 
 
 1. **Any other comments?**
