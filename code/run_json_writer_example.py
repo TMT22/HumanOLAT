@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 
 from train_tools.train_tools import *
+from utils.metadata_readers import *
 
 
 # Example script for writing train/test .jsons and .ply files
@@ -16,7 +17,7 @@ PATH_TO_DATASET = Path("/CT/HumanOLAT/static00/FinalData/") # Path to dataset ro
 SUBJECT = "SUBJECT_C003" # Name of subject to process
 POSE = "POSE_00" # Name of pose to process
 
-OUT_PATH = Path("./train_tools_out") # Where to write the .ply and json files
+OUT_PATH = Path("./out/train_tools") # Where to write the .ply and json files
 
 # ---------------------------------------------------------
 
@@ -26,7 +27,7 @@ lights_sort_path = PATH_TO_DATASET / SUBJECT  / "shared" / "LSX3_light_z_spiral.
 # We exclude door lights, since their position may be inaccurate
 light_positions, light_img = read_OLAT_info(lights_pos_path,lights_sort_path, OLAT_START=14, OLAT_FB_MODULO=21, exclude_door_lights=True)
 
-all_cams = list(range(30))
+all_cams = list(range(40))
 
 
 # ---------------------------------------------------------

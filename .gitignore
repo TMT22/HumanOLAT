@@ -1,2 +1,3 @@
 # Ignore Python cache
 **/__pycache__/
+**/out/
