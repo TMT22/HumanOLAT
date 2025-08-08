@@ -27,6 +27,10 @@
 
 </div>
 
+## Abstract
+
+Simultaneous relighting and novel-view rendering of digital human representations is an important yet challenging task with numerous applications. However, progress in this area has been significantly limited due to the lack of publicly available, high-quality datasets, especially for full-body human captures. To address this critical gap, we introduce the HumanOLAT dataset, the first publicly accessible large-scale dataset providing multi-view One-Light-at-a-Time (OLAT) captures of full-body humans. The dataset includes HDR RGB frames under various illumination conditions, such as white light, environment maps, color gradients and fine-grained OLAT illuminations. Our evaluations on state-of-the-art relighting and novel-view synthesis methods underscore both the dataset's value and the significant challenges still present in accurately modeling complex human-centric appearance and lighting interactions. We believe that HumanOLAT will significantly facilitate future research, enabling rigorous benchmarking and advancements in both general and human-specific relighting and rendering techniques. 
+
 ## Contents
 1. [Quick Start](#quick-start)
 2. [Code and Tools](#code-and-tools)
@@ -49,7 +53,7 @@ Please view the `DATASHEET.md` for detailed information on the contents of the d
 
 ## Code and Tools
 
-(COMING SOON) Information on available code and tools will be added here
+Please view the [Code](https://github.com/TMT22/HumanOLAT/tree/main/code) directory for information on available code and tools.
 
 ## Processing Raw Data
 
@@ -74,6 +78,6 @@ This research was supported by NVIDIA.
 ## TODOs
 
 - [x] Add information on how to access the dataset 
-- [ ] Add sources for code and tools
+- [x] Add sources for code and tools
 - [ ] Add information on how to process raw data
 
