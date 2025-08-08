@@ -28,8 +28,9 @@ We provide an opencv-based viewer for the images and meshes contained in the dat
 python run_dataset_viewer.py --subject SUBJECT_C003 /PATH/TO/YOUR
 ```
 
-You can replace SUBJECT_C003 with whatever subject you with to view. In the viewer, the left side shows the current image, while the right side the rendered mesh (if available and enabled), rendered under OLAT light for OLAT frames and fullbright light otherwise. Controls are:
+You can replace SUBJECT_C003 with whatever subject you with to view. In the viewer, the left side shows the current image, while the right side the rendered mesh (if available and enabled), rendered under OLAT light for OLAT frames and fullbright light otherwise. 
 
+Controls are:
 ```
 esc: close the visualizer
 j/l: previous/next image
