@@ -1,11 +1,31 @@
-# HumanOLAT (ICCV 2025)
-Official repository for code, tools and information related to the HumanOLAT dataset, to be published at ICCV 2025.
+<div align="center">
+   <!--Layout adapted from https://github.com/vivoCameraResearch/SDMatte-->
+  <h1 align="center"><i>HumanOLAT</i>: A Large-Scale Dataset for Full-Body Human Relighting and Novel-View Synthesis </h1>
 
-[[Project Page]](https://vcai.mpi-inf.mpg.de/projects/HumanOLAT/) [[Paper (Coming Soon)]](https://en.wikipedia.org/wiki/Coming_Soon) [[Data]](https://gvv-assets.mpi-inf.mpg.de/)
+  <p align="center">
+    <b>
+      Timo Teufel<sup>1*</sup>, Pulkit Gera<sup>1*</sup>, Xilong Zhou<sup>1</sup>,
+      Umar Iqbal<sup>2</sup>, Pramod Rao<sup>1</sup>,<br>
+      Jan Kautz<sup>2</sup>, Vladislav Golyanik<sup>1</sup>,Christian Theobalt<sup>1</sup>
+    </b><br>
+    <sup>1</sup> Max Planck Institute for Informatics,SIC&nbsp;&nbsp;&nbsp;
+    <sup>2</sup> NVIDIA<br>
+    <sup>*</sup> Equal contribution &nbsp;&nbsp;&nbsp;
+  </p>
 
-![img](assets/teaser.png)
+  [![project page](https://img.shields.io/badge/🌐-Project%20Page-3977dd)](https://vcai.mpi-inf.mpg.de/projects/HumanOLAT/)
+  [![arxiv paper (coming soon)](https://img.shields.io/badge/📝-arxiv-orange)](https://en.wikipedia.org/wiki/Coming_Soon)
+  [![dataset](https://img.shields.io/badge/🗂️-dataset-green)](https://gvv-assets.mpi-inf.mpg.de/HumanOLAT/)
+  
+  <strong>Official repository for code, tools and information related to the <i>HumanOLAT</i> dataset, to be published at ICCV 2025.</strong>
 
-**For any questions, please contact Timo Teufel [tteufel@mpi-inf.mpg.de] .**
+  <div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="assets/teaser.png">
+  </div>
+
+  <strong>For any questions, please contact Timo Teufel tteufel@mpi-inf.mpg.de.</strong>
+
+</div>
 
 ## Contents
 1. [Quick Start](#quick-start)
