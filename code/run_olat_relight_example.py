@@ -13,7 +13,7 @@ from utils.metadata_readers import *
 # ADJUST THESE PARAMETERS #
 ###########################
 
-PATH_TO_DATASET = Path("/CT/HumanOLAT/static00/FinalData/") # Path to dataset root
+PATH_TO_DATASET = Path("/PATH/TO/YOUR/FinalData/") # Path to dataset root
 SUBJECT = "SUBJECT_C058" # Name of subject to process
 POSE = "POSE_00" # Name of pose to process
 CAM = "Cam01" # Name of camera to process
