@@ -17,7 +17,7 @@
   [![arxiv paper (coming soon)](https://img.shields.io/badge/📝-arxiv-orange)](https://en.wikipedia.org/wiki/Coming_Soon)
   [![dataset](https://img.shields.io/badge/🗂️-dataset-green)](https://gvv-assets.mpi-inf.mpg.de/HumanOLAT/)
   
-  <strong>Official repository for code, tools and information related to the <i>HumanOLAT</i> dataset, to be published at ICCV 2025.</strong>
+  <strong>Official repository for code, tools and information related to the <i>HumanOLAT</i> dataset.</strong>
 
   <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="assets/teaser.png">
