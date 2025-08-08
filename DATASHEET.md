@@ -10,7 +10,7 @@ Datasheet in the format of "Datasheets for datasets" as described in
 ## Motivation
 
 1. **For what purpose was the dataset created?** *(Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.)*
-
+xr
     This dataset was created to address the lack of public high-quality data for simultaneous relighting and novel-view rendering of digital human representations.
 
    Specifically, we aim to provide captures of the full reflectance field for statically posed humans.
@@ -353,7 +353,7 @@ Datasheet in the format of "Datasheets for datasets" as described in
 
 1. **Will the dataset be distributed to third parties outside of the entity (e.g., company, institution, organization) on behalf of which the dataset was created?** *(If so, please provide a description.)*
 
-    Yes, the dataset is available under "LICENSE INFORMATION TO ADD".
+    Yes, for the license, please view the respective download page.
 
 
 1. **How will the dataset be distributed (e.g., tarball  on website, API, GitHub)?** *(Does the dataset have a digital object identifier (DOI)?)*
@@ -371,7 +371,7 @@ Datasheet in the format of "Datasheets for datasets" as described in
 
 1. **Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?** *(If so, please describe this license and/or ToU, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated with these restrictions.)*
 
-    The dataset is licensed under "LICENSE INFORMATION TO ADD".
+    We provide the dataset to institutions for non-commerical research applications. For the specifics under which the dataset is licensed, please view the repsective download page.
 
 
 1. **Have any third parties imposed IP-based or other restrictions on the data associated with the instances?** *(If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms, as well as any fees associated with these restrictions.)*
