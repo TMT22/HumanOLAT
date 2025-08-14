@@ -41,7 +41,12 @@ Simultaneous relighting and novel-view rendering of digital human representation
 
 ## Quick Start
 
-To access the dataset, navigate to the authentication site by going to https://gvv-assets.mpi-inf.mpg.de/, searching for "HumanOLAT" and clicking on the button "Software". Afterwards, register a new account and supply the requested information. Please note that we require everyone who wishes to access to access the dataset to apply using an **institutional e-mail address** and **describe the intended usage in detail** (i.e. not just "research").
+To access the dataset, navigate to the authentication site by going to https://gvv-assets.mpi-inf.mpg.de/, searching for "HumanOLAT" and clicking on the button "Software". Afterwards, ...
+
+-  Register a new account and supply the requested information. 
+- **Send an e-mail describing the intended use to tteufel@mpi-inf.mpg.de with your supervisor cc-ed**.
+
+Both of these steps are necessary, if you fail to do so your request will be rejected. Please note that we require everyone who wishes to access to access the dataset to apply using an **institutional e-mail address** and **describe the intended usage in detail** (i.e. not just "research").
 
 After your account has been approved, simply login and download the parts of the dataset which interest you. In general, we recommend downloading the `processed_data.tar` file (10GB), which contains the entire dataset stored using undistorted, masked and motion corrected 1K `.avif` files.
 
