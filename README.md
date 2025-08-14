@@ -23,7 +23,7 @@
       <img style="width:100%" src="assets/teaser.png">
   </div>
 
-  <strong>For any questions, please contact Timo Teufel tteufel@mpi-inf.mpg.de.</strong>
+  <strong>For any questions regarding the dataset itself or access to it, please contact Timo Teufel tteufel@mpi-inf.mpg.de.</strong>
 
 </div>
 
