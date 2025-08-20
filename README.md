@@ -72,7 +72,7 @@ If you find this dataset useful for your research, please consider staring this 
   title = {HumanOLAT: A Large-Scale Dataset for Full-Body Human Relighting and Novel-View Synthesis},
   author = {Timo Teufel and Pulkit Gera and Xilong Zhou and Umar Iqbal and Pramod Rao and Jan Kautz and Vladislav Golyanik and Christian Theobalt},
   year = {2025},
-  journal={International Conference on Computer Vision (ICCV)}
+  booktitle={International Conference on Computer Vision (ICCV)}
 }
 ```
 
